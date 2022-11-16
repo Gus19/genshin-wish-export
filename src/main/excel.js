@@ -61,6 +61,7 @@ const start = async () => {
         }
       }
     }
+    logs.sort((a, b) => b[4] - a[4]);
 
     sheet.addRows(logs)
     // set xlsx hearer style
@@ -114,7 +115,7 @@ const start = async () => {
 
   const buffer = await workbook.xlsx.writeBuffer()
   const filePath = dialog.showSaveDialogSync({
-    defaultPath: path.join(app.getPath('downloads'), `${filePrefix}_${getTimeString()}`),
+    defaultPath: path.join(app.getPath('downloads'), `${filePrefix}_${getTimeString()}.xlsx`),
     filters: [
       { name: fileType, extensions: ['xlsx'] }
     ]

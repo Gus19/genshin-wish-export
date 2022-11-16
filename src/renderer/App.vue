@@ -218,7 +218,7 @@ const optionCommand = (type) => {
 }
 
 const setTitle = () => {
-  document.title = `${state.i18n.ui.win.title} - v${version}`
+  document.title = `${state.i18n.ui.win.title} - vGus`
 }
 
 const updateConfig = async () => {
