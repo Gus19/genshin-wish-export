@@ -1,6 +1,6 @@
 # Genshin Impact Wish History Exporter
 
-[中文](https://github.com/biuuu/genshin-wish-export/blob/main/README.md) | English
+[Forked from biuuu](https://github.com/biuuu/genshin-wish-export/blob/main/README.md)
 
 A tool made from Electron that runs on the Windows 64 bit operating system.
 
@@ -25,21 +25,21 @@ When using web pages, be sure to fill in the correct UID and select the correct 
 
 ## Usage
 
-1. Unzip after downloading the tool - [Download](https://github.com/biuuu/genshin-wish-export/releases/latest/download/Genshin-Wish-Export.zip)
+1. Unzip after downloading the tool - [Download Windows 64 bits](https://github.com/gus19/genshin-wish-export/releases/latest/download/Genshin-Wish-Export.zip)
 2. Open the wish history of the game
 
-    ![wish history](/docs/wish-history-en.png)
+    ![wish history](./docs/wish-history-en.png)
 
 3. Click the tool's "Load data" button
 
-    ![load data](/docs/load-data-en.png)
+    ![load data](./docs/load-data-en.png)
 
     If nothing goes wrong, you'll be prompted to read the data, and the final result will look like this
 
     <details>
     <summary>Expand the picture</summary>
 
-    ![preview](/docs/preview-en.png)
+    ![preview](./docs/preview-en.png)
     </details>
 
 If you need to export the data of multiple accounts, you can click the plus button next to it.
