@@ -2,8 +2,7 @@
   "name": "genshin-wish-export-vgus",
   "version": "1.0.1",
   "main": "./dist/electron/main/main.js",
-  "author": "gus19 <https://github.com/gus19>",
-  "description": "fork from biuuu <https://github.com/biuuu>",
+  "author": "biuuu <https://github.com/biuuu>",
   "license": "MIT",
   "scripts": {
     "dev": "node .electron-vite/dev-runner.js",
@@ -34,7 +33,8 @@
         "url": "http://127.0.0.1"
       }
     ],
-    "productName": "GenshinWishExport",
+    "productName": "Genshin Wish Export",
+    "appId": "org.biuuu.genshin-wish-export",
     "directories": {
       "output": "build"
     },
